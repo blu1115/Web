@@ -84,5 +84,6 @@ nav{
     }
     .home{
         font-size: 0;
+        padding-left: 40px;
     }
 }
