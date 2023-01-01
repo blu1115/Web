@@ -82,4 +82,7 @@ nav{
         text-decoration: none;
         left: 50px;
     }
+    .home{
+        font-size: 0;
+    }
 }
