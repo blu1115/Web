@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 24px;
+}
+body{
+    background-image: url(bg2.gif);
+    background-size: cover;
+    overflow: hidden;
+}
+.contact{
+    height: 400px;
+    width: 500px;
+    background-color: black;
+    position: absolute;
+    top: 150px;
+    left: 440px;
+}
+.name{
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+.email{
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 32%;
+    left: 25%;
+}
+.message{
+    padding: 10px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 44%;
+    left: 25%;
+}
+.submit{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    left: 38%;
+}
+.heading{
+    color: white;
+    position: absolute;
+    left: 440px;
+    top: 100px;
+}
+@media only screen and (min-width: 320px) and (max-width: 890px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-image: url(mobilecontactbg.jpg);
+    }
+    .contact{
+        height: 400px;
+        width: 290px;
+        background-color: black;
+        position: absolute;
+        top: 200px;
+        left: 70px;
+    }
+    .name{
+        padding: 10px;
+        border-radius: 20px;
+        position: absolute;
+        top: 20%;
+        left: 13%;
+    }
+    .email{
+        padding: 10px;
+        border-radius: 20px;
+        position: absolute;
+        top: 32%;
+        left: 13%;
+    }
+    .message{
+        padding: 10px;
+        padding-bottom: 40px;
+        border-radius: 20px;
+        position: absolute;
+        top: 44%;
+        left: 13%;
+    }
+    .submit{
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background: none;
+        border: 2px solid white;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+        position: absolute;
+        top: 65%;
+        left: 38%;
+    }
+    .heading{
+        color: white;
+        position: absolute;
+        left: 90px;
+        top: 140px;
+    }
+
+}
